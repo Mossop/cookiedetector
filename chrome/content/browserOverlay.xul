@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<overlay id="CookieDetectorOverlay"
+                        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+        
+	<script type="application/x-javascript" src="browserOverlay.js" />
+
+	<statusbar id="status-bar">
+		<statusbarpanel id="CookieDetectorStatus" insertafter="statusbar-progresspanel" label="" flex="0"/>
+	</statusbar>
+
+</overlay>

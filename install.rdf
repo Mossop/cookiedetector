@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{3df37497-208a-44ec-9663-869466d29d93}</em:id>
+    <em:version>0.1</em:version>
+    
+    <!-- Target Application this extension can install into, 
+        with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.0</em:minVersion>
+        <em:maxVersion>1.1+</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <!-- Front End MetaData -->
+    <em:name>Cookie Detector</em:name>
+    <em:description>Detects and displays cookies received and sent with the current page.</em:description>
+    <em:creator>Dave Townsend</em:creator>
+    <em:homepageURL>http://www.blueprintit.co.uk/~dave/web/firefox/cookiedetector/index.html</em:homepageURL>
+    <em:updateURL>http://www.blueprintit.co.uk/~dave/web/firefox/update.rdf?guid=%ITEM_ID%</em:updateURL>
+    <em:iconURL>chrome://cookiedetector/skin/icon.png</em:iconURL>
+    
+  </Description>      
+</RDF>

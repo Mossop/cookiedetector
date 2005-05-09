@@ -1,0 +1,4 @@
+content	cookiedetector	file:chrome/content/
+skin	cookiedetector	classic/1.0	file:chrome/skin/
+locale	cookiedetector	en-US	file:chrome/locale/en-US/
+overlay	chrome://browser/content/browser.xul	chrome://cookiedetector/content/browserOverlay.xul
