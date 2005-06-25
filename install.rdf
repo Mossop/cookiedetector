@@ -22,7 +22,7 @@
     <em:description>Detects and displays cookies received and sent with the current page.</em:description>
     <em:creator>Dave Townsend</em:creator>
     <em:homepageURL>http://www.blueprintit.co.uk/~dave/web/firefox/cookiedetector/index.html</em:homepageURL>
-    <em:updateURL>http://www.blueprintit.co.uk/~dave/web/firefox/update.rdf?guid=%ITEM_ID%</em:updateURL>
+    <em:updateURL>http://www.blueprintit.co.uk/~dave/web/firefox/update.rdf?guid=%ITEM_ID%&amp;version=%ITEM_VERSION%&amp;app=%APP_ID%&amp;appver=%APP_VERSION%</em:updateURL>
     <em:iconURL>chrome://cookiedetector/skin/icon.png</em:iconURL>
     
   </Description>      
